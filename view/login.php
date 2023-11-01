@@ -15,8 +15,8 @@
             <h1>Login</h1>
 
             <form action="." method="post" id="login_form" class="aligned">
-                <input type="hidden" name="action" value="login">
-
+                <input type="hidden" name="action" value="login"> 
+                <!-- there is a value attribute with the actual value "login" since it's hidden and then a value needs to be sent-->
                 <label>Email:</label>
                 <input type="text" class="text" name="email">
                 <br>
